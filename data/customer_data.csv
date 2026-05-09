@@ -1,0 +1,17 @@
+Customer ID,Full Name,Age,Email,City,Signup Date,Total Spend,Last Purchase Date,Customer Segment
+1001,Aisha Haddad,29,aisha.haddad@example.com,Amman,2023-01-12,450.75,2024-02-20,Gold
+1002,Omar Saleh,34,omar.saleh@example.com,Irbid,2023-02-03,220.00,2024-01-15,Silver
+1003,Lina Mansour,,lina.mansour@example.com,Zarqa,2023-03-18,315.40,,Silver
+1004,Noor Khalil,41,,Amman,2023-04-21,980.10,2024-03-05,Platinum
+1005,Kareem Nasser,25,kareem.nasser@example.com,Aqaba,2023-05-10,,2024-02-28,Bronze
+1006,Sara Qasim,38,sara.qasim@example.com,,2023-06-14,540.30,2024-04-01,Gold
+1007,Yousef Darwish,31,yousef.darwish@example.com,Madaba,2023-07-09,120.00,2024-01-30,Bronze
+1008,Maya Faris,27,maya.faris@example.com,Amman,,410.90,2024-03-17,Silver
+1009,Hassan Odeh,45,hassan.odeh@example.com,Irbid,2023-09-25,760.50,2024-04-10,Gold
+1010,Rana Samir,30,rana.samir@example.com,Zarqa,2023-10-02,205.80,,Silver
+1011,Tariq Abbas,,tariq.abbas@example.com,Amman,2023-11-19,330.00,2024-03-22,
+1012,Dana Maher,36,dana.maher@example.com,Aqaba,2023-12-05,690.25,2024-04-18,Gold
+1012,Dana Maher,36,dana.maher@example.com,Aqaba,2023-12-05,690.25,2024-04-18,Gold
+1013,Samir Barakat,52,,Irbid,2024-01-11,1150.00,2024-04-20,Platinum
+1014,Hiba Rami,24,hiba.rami@example.com,Madaba,2024-01-28,95.50,2024-02-14,Bronze
+1015,Zaid Hamdan,33,zaid.hamdan@example.com,Amman,2024-02-08,,2024-04-02,Silver
