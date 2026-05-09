@@ -1,8 +1,10 @@
 # Data Quality Analysis System
 
-This is a simple Python project I made for my student portfolio. The project works with a messy customer dataset, checks a few data quality problems, cleans the data, and saves the results.
+This is a Python project for checking and cleaning a messy customer dataset. It looks for missing values, duplicate rows, and overall data completeness, then saves the cleaned data and a few simple outputs. I built it as a portfolio project to show basic data cleaning, analysis, and reporting skills.
 
-The idea is to show a practical example of how raw business data can be reviewed before using it for reports or analysis.
+## Problem Statement
+
+Real datasets are often not ready to use right away. They can have blank values, repeated records, and column names that are hard to work with. This project gives a small example of how I would check a dataset first, clean it, and create a short summary before using it for analysis.
 
 ## Technologies Used
 
@@ -12,29 +14,20 @@ The idea is to show a practical example of how raw business data can be reviewed
 - SQLite
 - Matplotlib
 
-## Project Files
-
-- `main.py` - runs the full project
-- `data_cleaning.py` - loads, analyzes, and cleans the dataset
-- `database.py` - saves the cleaned data into SQLite
-- `visualization.py` - creates the charts
-- `requirements.txt` - lists the Python packages needed
-- `data/customer_data.csv` - sample messy customer dataset
-
 ## Features
 
-- Loads a CSV customer dataset
+- Loads customer data from a CSV file
+- Cleans missing values in text and number columns
+- Removes duplicate records
 - Standardizes column names
-- Handles missing values
-- Removes duplicate rows
 - Calculates missing value percentage
 - Counts duplicate records
 - Calculates a completeness score
-- Saves cleaned data into a SQLite database
-- Creates simple charts with Matplotlib
+- Saves the cleaned dataset into a SQLite database
+- Creates simple charts for data quality results
 - Exports a summary report as a CSV file
 
-## How to Run
+## How to Run the Project
 
 1. Install the required packages:
 
@@ -42,37 +35,18 @@ The idea is to show a practical example of how raw business data can be reviewed
 pip install -r requirements.txt
 ```
 
-2. Run the project from the terminal:
+2. Run the project:
 
 ```bash
 python main.py
 ```
 
-## Sample Outputs
+The project will create an `outputs` folder with the cleaned database, report, and charts.
 
-After running the project, the `outputs` folder will contain:
+## Example Outputs
 
-- `data_quality.db` - SQLite database with the cleaned customer data
-- `data_quality_summary.csv` - summary report of the data quality results
-- `missing_values_chart.png` - chart showing missing values by column
-- `duplicates_chart.png` - chart showing duplicate records
-- `completeness_score_chart.png` - chart showing the overall completeness score
-
-Example terminal output:
-
-```text
-Data Quality Analysis System
-----------------------------
-Loading dataset from: data/customer_data.csv
-Analyzing original data quality...
-Cleaning data...
-Saving cleaned data to SQLite database...
-Creating charts...
-Exporting summary report...
-
-Project finished successfully.
-```
-
-## Why This Project Is Useful
-
-Data quality is important because missing values, duplicates, and messy column names can affect reports and business decisions. This project is a small example of how I can use Python to inspect and clean data before using it for analysis.
+- `data_quality_summary.csv` gives a short report with total rows, missing values, duplicate records, and the completeness score.
+- `data_quality.db` stores the cleaned customer dataset in a SQLite table.
+- `missing_values_chart.png` shows which columns have missing data.
+- `duplicates_chart.png` compares unique records with duplicate records.
+- `completeness_score_chart.png` shows how complete the dataset is overall.
